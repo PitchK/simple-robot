@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Origami website</title>
+        <title>How to fold: A simple robot</title>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <meta name="description" content="This website showcases my original origami models. I come up with a lot of models, ranging from futuristic vehicles to flowers. Have a look!"/>
+    <meta name="description" content="How to fold: A simple robot"/>
     </head>
     <body>
         <div id = 'mobileHeader'>
@@ -44,53 +44,62 @@
                 <a href="/gallery" class = 'links'>Gallery</a>
             </div>
         </div>
-    
-            <p id = 'title'>How to fold: a simple robot</p>
-            <div id = 'titleFlexComp'>
-                <div class = 'titleFlex'>
-                    <p class = 'time'>Time to fold: 10-15 min. | Difficulty: </p>
-                    <div class = 'difficultyDisplay'>7.5/10</div>
+        <div id = pictureAndExplanation>
+            <img src="https://pitchk.github.io/h/robot.jpg" alt="" id = 'topImg'>
+            <div id = 'explanation'>
+                <p id = 'title'>How to fold: A simple robot</p>
+                <div id = 'titleFlexComp'>
+                    <div class = 'titleFlex'>
+                        <p class = 'time'>Time to fold: 10-15 min. | Difficulty: </p>
+                        <div class = 'difficultyDisplay'>7.5/10</div>
+                    </div>
                 </div>
-            </div>
             
-            <div id = 'titleFlexMobile'>
-                <p class = 'time' class = 'mobileTime'>Time to fold: 10-15 min.</p>
-                <div class = 'titleFlex'>
-                    <p class = 'time'>Difficulty: </p>
-                    <div class = 'difficultyDisplay'>7.5/10</div>
+                <div id = 'titleFlexMobile'>
+                    <p class = 'time' class = 'mobileTime'>Time to fold: 10-15 min.</p>
+                    <div class = 'titleFlex'>
+                        <p class = 'time'>Difficulty: </p>
+                        <div class = 'difficultyDisplay'>7.5/10</div>
+                    </div>
+                </div>
+                <hr id= 'mobileLine'>
+                <p id = 'subtitle'>As of July 2021, this model is the most recent model I made up. An interesting fact is that I created it by accident while trying to come up with a new futuristic vehicle. This robot looks great on your desk, folded in a bright color!</p>
+                <div id = 'explanationLinkHolder'>
+                    <p class = 'explanationLinks'>Instructions</p>
+                    <p class = 'explanationLinks'>Gallery</p>
+                    <p class = 'explanationLinks'>Similar models</p>
                 </div>
             </div>
-            <hr id= 'mobileLine'>
-            <p id = 'subtitle'>As of July 2021, this model is the most recent model I made up. An interesting fact is that I created it by accident while trying to come up with a new futuristic vehicle. This robot looks great on your desk, folded in a bright color!</p>
-            <hr class = 'line'>
+        </div>
+            
+        <div id = 'instructionSection'>
+            <div id = 'darkmode'>
+                <p id = 'darkmodeText'>Dark mode for instructions: </p>
+                <div id = 'switchOuter'>
+                    <div id = 'switchInner'></div>
+                </div>
+            </div>
             <p id = 'instructions'>Instructions</p>
             <i>
             <p class = 'pdftitle'>Steps with an asterisk (*) are challenging and therefore have videos explaining how to do that step. The video links are available below the steps.</p>
-            <img src="robot.svg" alt="">
-            <p class = 'pdftitle'>Although you may download these instructions as a PDF using <a href="robot.pdf" id = 'downloadbtn' download>this link</a>, printing it is not recommended. See the terms of usage <a href="/usage" target = '_blank'>here.</a></i>
-            <hr class = 'line'>
+            <img src="robot.svg" alt="" id = 'instructionImage'>
+            <p class = 'pdftitle'>Although you may download these instructions as a PDF using <a href="robot.pdf" class = 'pdfTitleLink' download>this link</a>, printing it is not recommended. See the terms of usage <a href="/usage" target = '_blank' class = 'pdfTitleLink'>here.</a></i>
+        </div>
+            
+        <div id = 'gallerySection'>
             <p id = 'gallery'>Gallery</p>
             <div class = 'images'>
                 <div class = 'captionHolder'>
-                    <img src="https://pitchk.github.io/land-hover-21/fv61.jpg" alt="" class = 'galleryImg'>
-                    <p class = 'imageCaption'>Side view.</p>
+                    <img src="https://3358nc4e1je93h11tu493nryr3i-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/image-coming-soon.jpg" alt="" class = 'galleryImg'>
+                    <p class = 'imageCaption'>Top view.</p>
                 </div>
                 <div class = 'captionHolder'>
-                    <img src="https://pitchk.github.io/land-hover-21/fv62.jpg" alt="" class = 'galleryImg'>
-                    <p class = 'imageCaption'>"Diagonal" view.</p>
+                    <img src="https://3358nc4e1je93h11tu493nryr3i-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/image-coming-soon.jpg" alt="" class = 'galleryImg'>
+                    <p class = 'imageCaption'>Two shrimp, side by side.</p>
                 </div>
             </div>
-            <div class = 'images'>
-                <div class = 'captionHolder'>
-                    <img src="https://pitchk.github.io/land-hover-21/fv63.jpg" alt="" class = 'galleryImg'>
-                    <p class = 'imageCaption'>An assortment of LandHover'21s.</p>
-                </div>
-                
-                <div class = 'captionHolder'>
-                    <img src="https://pitchk.github.io/land-hover-21/fv64.jpg" alt="" class = 'galleryImg'>
-                    <p class = 'imageCaption'>Crease patterns for this model.</p>
-                </div>
-            </div>
+        </div>
+            
             <hr class = 'line'>
             <div id = 'similarModels'>Similar Models</div>
             <div id = 'allModels'></div>
@@ -102,7 +111,9 @@
                     <a href="/h" id = 'bottomIcon'>WebsiteTitle</a>
                 </div>
                 
-                <p id = 'bottomCaption'>This website is updated every time I come up with a new model. Stay tuned and visit back frequently to check for any new updates!</p>
+                <p id = 'bottomCaption'>This website is updated every time I come up with a new model. Stay tuned and visit back frequently to check for any new updates. All new updates are logged on this <a href="/change-log" class = 'bottomlink'>change log.</a></p>
+
+                <p id = 'bottomCaption2'>Any comments, feedback, or requests? Please email me at pitchk808@gmail.com.</p>
                 <div id = 'bottomLinkHolder'>
                     <div class = 'indivBottomLinkHolder'><a href="/about-me#website" class = 'bottomlink'>About this website</a></div>
                     <div class = 'indivBottomLinkHolder'><a href="/models" class = 'bottomlink'>Models</a></div>
@@ -110,7 +121,7 @@
                     <div class = 'indivBottomLinkHolder'><a href="/usage" class = 'bottomlink'>Terms of use</a></div>
                     
                 </div>
-                <div id = 'credit'><span id = 'code'>&lt;/&gt;</span> by <a href="/about_me">Micaiah Cape</a></div>
+                <div id = 'credit'><span id = 'code'>&lt;/&gt;</span> by <a href="/about-me">Micaiah Cape</a></div>
             </footer>
     
     </body>
